@@ -9,5 +9,8 @@ int main()
   cout << "Welcome! Are you an existing user?" << endl;
   cout << "Enter YES to be directed to login screen." << endl;
   cout << "enter NO to create new profile" << endl;
-  // cin >> yesOrNo;
+  cin >> yesOrNo;
+
+  if (yesOrNo == "NO") {
+  }
 }
