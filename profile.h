@@ -66,6 +66,6 @@ profile newUser(string userData);
  * profile.
  *
  */
-void newUserValidator(string email);
+bool newUserValidator(const Users& u, string email);
 
 #endif
