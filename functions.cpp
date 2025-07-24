@@ -1,6 +1,9 @@
 #include <iostream>
-using namespace std;
+
 #include "profile.h"
+
+using namespace std;
+
 
 bool newUserValidator(const Users& u, string email)
 {
